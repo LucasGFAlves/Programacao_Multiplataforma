@@ -1,0 +1,70 @@
+body
+{
+	
+}
+
+#forms
+{
+    width:100%;
+    height:100%;
+}
+
+#calculator
+{
+	width:200px;
+	color:#808080; 
+	background-color:#808080; 
+}
+
+#visor
+{
+	width:100%;
+    height:120px;
+	text-align:center;
+	color:#808080; 
+	background-color:#808080;
+}
+
+#input
+{
+	width:100%;
+    height:120px;
+	text-align:right;
+	background-color:#808080;
+	color:white;
+	border:none;
+	font-size: 50px;
+}
+
+.btn_normal
+{
+	width:70px;
+    height:60px;
+	color:#808080;
+	background-color:#d3d3d3;
+	cursor:hand;
+	border:none;
+	font-size: 24px;
+}
+
+.btn_different
+{
+	width:70px;
+    height:60px;
+	color:#808080;
+	background-color:#ffa500; 
+	cursor:hand;
+	border:none;
+	font-size: 24px;
+}
+
+.button_zero
+{
+	width:100%;
+    height:60px;
+	color:#808080;
+	background-color:#d3d3d3; 
+	cursor:hand;
+	border:none;
+	font-size: 24px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html/>
+<html>
+	<head> 
+		<title> Programação Multiplataforma </title>
+		<meta charset="UTF-8" /> 
+		<link rel="stylesheet" href = "./css/style.css"/>
+		<script type="text/javascript" src="./script/calculate.js"></script>
+	</head>
+	<body>
+		<form id="forms" name="form_calculate" action>
+			<center>
+				<table id="calculator">
+					<tr>
+						<td id= "visor" colspan="5">
+							<input id="input" type="text" name="text_calculate" value="0">
+						</td>
+					</tr>
+					<tr>
+						<td><input type="reset" value="AC" class="btn_normal" onclick=""></td>
+						<td><input type="button" value="+-" class="btn_normal" onclick="Operation('+-')"></td>
+						<td><input type="button" value="%" class="btn_normal" onclick="Operation('%')"></td>
+						<td><input type="button" value="/" name="btn_divi" class="btn_different" onclick="Operation('/')"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="7" name="btn_7" class="btn_normal" onclick="NumPressed(7)"></td>
+						<td><input type="button" value="8" name="btn_8" class="btn_normal" onclick="NumPressed(8)"></td>
+						<td><input type="button" value="9" name="btn_9" class="btn_normal" onclick="NumPressed(9)"></td>
+						<td><input type="button" value="*" name="btn_mult" class="btn_different" onclick="Operation('*')"></td>
+						
+					</tr>
+					<tr>
+						<td><input type="button" value="4" name="btn_4" class="btn_normal" onclick="NumPressed(4)"></td>
+						<td><input type="button" value="5" name="btn_5" class="btn_normal" onclick="NumPressed(5)"></td>
+						<td><input type="button" value="6" name="btn_6" class="btn_normal" onclick="NumPressed(6)"></td>
+						<td><input type="button" value="-" name="btn_subt" class="btn_different" onclick="Operation('-')"></td>
+						
+					</tr>
+					<tr>
+						<td><input type="button" value="1" name="btn_1" class="btn_normal" onclick="NumPressed(1)"></td>
+						<td><input type="button" value="2" name="btn_2" class="btn_normal" onclick="NumPressed(2)"></td>
+						<td><input type="button" value="3" name="btn_3" class="btn_normal" onclick="NumPressed(3)"></td>
+						<td><input type="button" value="+" name="btn_soma" class="btn_different" onclick="Operation('+')"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="button" value="0" name="btn_0" class="button_zero" onclick="NumPressed(0)"></td>
+						<td><input type="button" value="." name="btn_pont" class="btn_normal" onclick="Point()"></td>
+						<td><input type="button" value="=" name="btn_igual" class="btn_different" onclick="Operation('=')"></td>
+					</tr>
+				</table>
+			</center>
+		</form>
+	</body>
+</html>

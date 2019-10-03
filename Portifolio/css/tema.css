@@ -1,0 +1,295 @@
+/*margem interna se define com padding e a margem externa se define por margin*/
+body{
+}
+div{ /*border-style: solid;/*borda solida*/
+	/*border-style: dashed;/*borda pontilhada*/
+	/*border-width: medium;/*tamanho da borda media*/
+	/*border-color:#fffff;/*cor da borda preta*/
+	/*margin: 100px;*/
+	/*height: 200px;*/
+	width: 300px; /*define largura em pixels*/
+	float: left;/*flutua pra esquerda os objetos do div*/
+	}
+	
+#backgroundImage
+{
+	width: 100%;
+	height:100%;
+	background-image:url("../images/background/game.jpeg");
+	background-size: 100% 100%;
+}
+#header{width: 100%;
+	height:234px;
+	background-image:url("../images/cabeca.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*margin: 2px 2px 2px 2px;/*up/down/right/left*/
+	}
+	
+#nav{width: 100%;
+	background-image:url("../images/button.png");
+	background-size:100% 100%;
+	height:40px;
+	/*margin: 2px 2px 2px 2px;/*up/down/right/left*/
+	}
+
+#nav ul{
+	margin:0px;
+	padding:0px;
+	
+}
+
+#nav ul li{ display: inline;
+	font-size:20px;
+	}
+	
+#nav ul li a{text-decoration:none;
+	color:#ffffff;
+	
+	}
+
+#nav ul li a:hover{
+	text-decoration:none;
+	color:#000000;
+	background-image:url("../images/button_hover.png");
+	background-size:100% 100%;
+}
+
+.btn_baixar
+{
+	width: 100%;
+	background-image:url("../images/button.png");
+	background-size:100% 100%;
+	height:40px;
+	font-size:30px;
+	color:white;
+}
+
+.btn_baixar:hover
+{
+	text-decoration:none;
+	color:#000000;
+	background-image:url("../images/button_hover.png");
+	background-size:100% 100%;
+}
+
+#menu 
+{
+	width: 100%;
+	height:100%;
+}
+	
+#content
+{
+	width: 100%;
+	height:90%;
+}
+	
+#games
+{
+	width: 100%;
+	height:75%;
+}
+
+#myCarousel
+{
+	width: 100%;
+	height:100%;
+}
+
+#item_active
+{
+	width:100%;
+	height:100%;
+	overflow: hidden;	
+	clear: both;
+}
+
+#imagem
+{
+	width:100%;
+	height:100%;
+}
+
+.item
+{
+	width: 100%;
+	height:100%;
+	overflow: hidden;	
+	clear: both;
+}
+
+.container_left
+{
+	float:left;
+	width: 60%;
+	height: 100%;
+	position: relative;
+
+}
+
+.container_right
+{
+	width: 40%;
+	height:100%;
+	float:right;
+	color:white;
+	text-align: center;
+}
+
+#topicos_left{width: 30%;
+	height: 100%;
+	background-image:url("../images/topicos.png");
+	background-size:100% 100%;
+	border-style:solid;
+	border-color: #00ffcc;
+	}
+	
+#topicos_right{width: 69%;
+	height: 100%;
+	border-style: solid;
+	border-color: #00ffcc;
+	}
+	
+#footer{width: 100%;
+	background-image:url("../images/button.png");
+	background-size:100% 100%;
+	height: 40px;
+	font-size: 10px;
+	/*margin: 2px 2px 2px 2px;/*up/down/right/left*/
+	}
+	
+#sobre
+{
+	width: 100%;
+	height: 75%;
+	color:white;
+	overflow: hidden;	
+	clear: both;
+}
+
+#sobre_left
+{
+	float:left;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#sobre_right
+{
+	float:right;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#contato
+{
+	width: 100%;
+	height: 75%;
+	color:white;
+	overflow: hidden;	
+	clear: both;
+}
+
+#contato_left
+{
+	float:left;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+	
+
+@media screen and (max-width:480px) {
+	div{
+		display:block;
+	}
+	
+	#header {
+		height:68px;
+		/*background-image:url("../images/cabeca_min.png");
+		/*background-repeat: no-repeat;
+		/*background-size: 100% 100%;*/
+	}
+	
+	#nav{height:40px;
+		
+	}
+	
+	#nav ul li{ display: inline;
+	padding-left:20px;
+	}
+	
+	
+	#topicos_left{
+		width: 30%;
+	}
+	
+	#topicos_right{
+		width: 65%;
+	}
+	/*margin: 2px 2px 2px 2px;/*up/down/right/left*/
+}
+
+@media screen and (min-width:480px) {
+	#header {
+		height:126px;
+		/*background-image:url("../images/cabeca_min.png");
+		/*background-repeat: no-repeat;
+		/*background-size: 100% 100%;*/
+	}
+	
+	#topicos_left{
+		width: 25%;
+	}
+	
+	#topicos_right{
+		width: 72%;
+	}
+	#nav{height:60px;
+		padding-top:10px;
+	}
+	
+	#nav ul li{ display: inline;
+	padding-left:15%;
+	
+	}
+	
+
+	/*margin: 2px 2px 2px 2px;/*up/down/right/left*/
+}
+
+@media screen and (min-width:1200px) {
+#header {
+		height:234px;
+		/*background-image:url("../images/cabeca_min.png");
+		/*background-repeat: no-repeat;
+		/*background-size: 100% 100%;*/
+		
+	}
+#topicos_left{
+		width: 20%;
+	}
+	
+#topicos_right{
+		width: 79%;
+	}
+	
+#nav{
+		height: 70px;
+		font-size: 15px;
+		padding-top:10px;
+	}
+
+#nav ul li{ display: inline;
+	font-size:30px;
+	padding-left:20%;
+	
+	}
+}
+
