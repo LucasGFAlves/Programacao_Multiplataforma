@@ -3,11 +3,11 @@ import { Hero } from '../hero';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-hero-item',
-  templateUrl: './hero-item.component.html',
-  styleUrls: ['./hero-item.component.css']
+  selector: 'app-hero-card',
+  templateUrl: './hero-card.component.html',
+  styleUrls: ['./hero-card.component.css']
 })
-export class HeroItemComponent {
+export class HeroCardComponent {
   @Input() hero: Hero;
 
   constructor(private router: Router) { }

@@ -30,10 +30,6 @@ export class RegisterComponent {
       name: new FormControl(this.model.name, [
         Validators.required,
         Validators.minLength(10)
-      ]),
-      email: new FormControl(this.model.email, [
-        Validators.required,
-        Validators.email
       ])
     });
 
@@ -46,7 +42,6 @@ export class RegisterComponent {
   }
 
   get name() { return this.heroForm.get('name'); }
-  get email() { return this.heroForm.get('email'); }
 
   onSubmit() {
     this.submitted = true;

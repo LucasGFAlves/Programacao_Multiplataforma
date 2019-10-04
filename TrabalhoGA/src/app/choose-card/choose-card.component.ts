@@ -3,12 +3,12 @@ import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
 @Component({
-  selector: 'app-choose-hero',
-  templateUrl: './choose-hero.component.html',
-  styleUrls: ['./choose-hero.component.css'],
+  selector: 'app-choose-card',
+  templateUrl: './choose-card.component.html',
+  styleUrls: ['./choose-card.component.css'],
   providers: [HeroService]
 })
-export class ChooseHeroComponent implements OnInit {
+export class ChooseCardComponent implements OnInit {
   public heroes: Hero[] = [];
 
   constructor(
